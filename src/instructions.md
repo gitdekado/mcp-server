@@ -10,6 +10,6 @@ When creating indicator objects (such as RSI, SMA, etc.), never overwrite the in
 
 ALWAYS choose variable names different from the methods you're calling.
 
-Before running backtests, run the compile tool (`create_compile` and `read_compile`) to get the syntax errors and then fix them.
+Before running backtests, run the compile tool (`create_compile` and `read_compile`) to get the syntax errors and then FIX ALL COMPILE WARNINGS.
 
 Where more efficient, use the `patch_file` tool to only update the lines of code with errors instead of using the `update_file_contents` tool.
